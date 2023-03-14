@@ -25,7 +25,7 @@
 - Query for the previous 12 months of temperature data for the most active station
 - Plot these values in a histogram
 
-### Part 2: Design a Climate App
+## Part 2: Design a Climate App
 - Design a climate app using Flask that lists the following routes
         /api/v1.0/precipitation
         /api/v1.0/stations
@@ -39,7 +39,7 @@
 - For the start/end route, return the minimum, average, and maximum temperature observations of all dates between a specified start and end date and return a jsonified list. 
 
 # Software and Files
-## For the precipitation and station analysis
+## For the precipitation and station analysis/SQLAlchemy and ORM
 - %matplotlib inline
 - from matplotlib import style
 - style.use('fivethirtyeight')
@@ -47,6 +47,19 @@
 - import numpy as np
 - import pandas as pd
 - import datetime as dt
+- import sqlalchemy
+- from sqlalchemy.ext.automap import automap_base
+- from sqlalchemy.orm import Session
+- from sqlalchemy import create_engine, func
+
+## For the app 
+- import numpy as np
+- import sqlalchemy
+- from sqlalchemy.ext.automap import automap_base
+- from sqlalchemy.orm import Session
+- from sqlalchemy import create_engine, func
+- import datetime as dt
+- from flask import Flask, jsonify
 
 # Output/Analyses
 
