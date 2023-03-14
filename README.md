@@ -20,7 +20,7 @@
 
 ### Station Analysis
 - Query for the number of stations in the dataset
-- Query for the stations and observations counts in descending order and find the most active station
+- Query for the stations and observation counts in descending order and find the most active station
 - Query for the min, max, and average temperatures for the most acitve station
 - Query for the previous 12 months of temperature data for the most active station
 - Plot these values in a histogram
