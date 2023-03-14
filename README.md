@@ -1,4 +1,4 @@
-# SQL Alchemy Challenge
+# SQLAlchemy Challenge
 
 # Project Description 
 
