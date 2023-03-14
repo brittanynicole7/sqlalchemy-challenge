@@ -39,7 +39,7 @@
 - For the start/end route, return the minimum, average, and maximum temperature observations of all dates between a specified start and end date and return a jsonified list. 
 
 # Software and Files
-## For the precipitation and station analysis/SQLAlchemy and ORM
+## For the Precipitation and Station Analysis/SQLAlchemy and ORM
 - %matplotlib inline
 - from matplotlib import style
 - style.use('fivethirtyeight')
@@ -52,7 +52,7 @@
 - from sqlalchemy.orm import Session
 - from sqlalchemy import create_engine, func
 
-## For the app 
+## For the Climate App 
 - import numpy as np
 - import sqlalchemy
 - from sqlalchemy.ext.automap import automap_base
