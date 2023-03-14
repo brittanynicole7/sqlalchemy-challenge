@@ -26,12 +26,12 @@
 - Plot these values in a histogram
 
 ## Part 2: Design a Climate App
-- Design a climate app using Flask that lists the following routes
-        - /api/v1.0/precipitation
-        - /api/v1.0/stations
-        - /api/v1.0/tobs
-        - /api/v1.0/start
-        - /api/v1.0/start/end
+- Design a climate app using Flask that lists the following routes\
+        /api/v1.0/precipitation\
+        /api/v1.0/stations\
+        /api/v1.0/tobs\
+        /api/v1.0/start\
+        /api/v1.0/start/end
 - For the precipitation route, convert the query results from the precipitation analysis (retrieving the last 12 months of data) to a dictionary and jsonify the dictionary values.
 - For the stations route, return a JSON list of the stations.
 - For the tobs route, query the dates and temperatures for the most active station and return a JSON list of the temperature observations.
